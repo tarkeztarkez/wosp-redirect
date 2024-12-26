@@ -1,8 +1,12 @@
+import { redirect } from "next/navigation";
+
 export const metadata = {
   title: "WOSP NZS",
 };
 
 const DonationPage = () => {
+  redirect("https://eskarbonka.wosp.org.pl/kebylunumy");
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-100 to-white">
       <div className="max-w-4xl mx-auto px-4 py-8">
